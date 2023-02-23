@@ -1,0 +1,127 @@
+* CheatSheet: Well-Known Papers For IT Industry                   :Interview:
+:PROPERTIES:
+:type:     interview
+:export_file_name: cheatsheet-paper-A4.pdf
+:END:
+
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/cheatsheet-paper-A4"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<div id="the whole thing" style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/slack.png" alt="slack"/></a></div>
+</div>
+
+<br/><br/>
+<a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a>
+#+END_HTML
+
+- PDF Link: [[https://github.com/dennyzhang/cheatsheet-paper-A4/blob/master/cheatsheet-paper-A4.pdf][cheatsheet-paper-A4.pdf]], Category: [[https://cheatsheet.dennyzhang.com/category/interview/][interview]]
+- Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-paper-A4
+- Related posts: [[https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-A4][CheatSheet: Leetcode For Code Interview]], [[https://cheatsheet.dennyzhang.com/category/interview/][interview]]
+
+File me [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com/issues][Issues]] or star [[https://github.com/dennyzhang/cheatsheet.dennyzhang.com][this repo]].
+
+** Papers: Distributed System
+| Num | Name                                                      | Summary                                          |
+|-----+-----------------------------------------------------------+--------------------------------------------------|
+|   1 | Amazon Dynamo: HA K/V store                               | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/amazon-dynamo.pdf][paper: amazon-dynamo.pdf]] ([[https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf][Original link]])         |
+|   2 | Google File System                                        | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-gfs.pdf][paper: google-gfs.pdf]] ([[https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf][Original link]])            |
+|   3 | Google MapReduce                                          | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-mapreduce.pdf][paper: google-mapreduce.pdf]] ([[https://research.google.com/archive/mapreduce-osdi04.pdf][Original link]])      |
+|   4 | Google Bigtable: distributed storage                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-bigtable.pdf][paper: google-bigtable.pdf]] ([[https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf][Original link]])       |
+|   5 | Google Spanner: Globally-distributed db                   | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-spanner.pdf][paper: google-spanner.pdf]]([[https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf][Original link]])         |
+|   6 | Facebook Cassandra: Decentralized storage                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/facebook-cassandra.pdf][paper: facebook-cassandra.pdf]] ([[http://www.cs.cornell.edu/Projects/ladis2009/papers/Lakshman-ladis2009.PDF][Original link]])    |
+|   7 | Yahoo Zookeeper: Cooridnation                             | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/yahoo-zookeeper.pdf][paper: yahoo-zookeeper.pdf]] ([[https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf][Original link]])       |
+|   8 | Yahoo Hadoop Distributed File System                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/yahoo-hdfs.pdf][paper: yahoo-hdfs.pdf]] ([[https://storageconference.us/2010/Papers/MSST/Shvachko.pdf][Original link]])            |
+|   9 | Ceph: a distributed file system                           | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/ceph.pdf][paper: ceph.pdf]] ([[https://www.ssrc.ucsc.edu/Papers/weil-osdi06.pdf][Original link]])                  |
+|  10 | Yahoo Zab: broadcast for primary-backup systems           | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/yahoo-zab.pdf][paper: yahoo-zab.pdf]] ([[https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/zab-high-performance-broadcast-for-primary-backup-systems.pdf][Original link]])             |
+|  11 | Linkedin Kafka: distributed messageing system             | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/linkedin-kafka.pdf][paper: linkedin-kafka.pdf]] ([[http://notes.stephenholiday.com/Kafka.pdf][Original link]])        |
+|  12 | Facebook tao: distributed data store for social graph     | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/facebook-tao.pdf][paper: facebook-tao.pdf]] ([[https://www.usenix.org/system/files/conference/atc13/atc13-bronson.pdf][Original link]])          |
+|  13 | Facebook Haystack: Facebook photo storage                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/facebook-haystack.pdf][paper: facebook-haystack.pdf]] ([[https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf][Original link]])     |
+|  14 | Facebook Gorilla: Time Series Database                    | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/facebook-gorilla.pdf][paper: facebook-gorilla.pdf]] ([[https://www.vldb.org/pvldb/vol8/p1816-teller.pdf][Original link]])      |
+|  15 | Facebook unicorn: search the social graph                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/facebook-unicorn.pdf][paper: facebook-unicorn.pdf]] ([[https://db.disi.unitn.eu//pages/VLDBProgram/pdf/industry/p871-curtiss.pdf][Original link]])      |
+|  16 | Google search engine                                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-search.pdf][paper: google-search.pdf]] ([[http://infolab.stanford.edu/pub/papers/google.pdf][Original link]])         |
+|  17 | Google Chubby: Lock service                               | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-chubby.pdf][paper: google-chubby.pdf]] ([[https://static.googleusercontent.com/media/research.google.com/en//archive/chubby-osdi06.pdf][Original link]])         |
+|  18 | Google Maglev: Google load balancer                       | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-maglev.pdf][paper: google-maglev.pdf]] ([[https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44824.pdf][Original link]])         |
+|  19 | Google Andromeda: Google cloud network virtualization     | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-andromeda.pdf][paper: google-andromeda.pdf]] ([[https://www.usenix.org/system/files/conference/nsdi18/nsdi18-dalton.pdf][Original link)]]      |
+|  20 | Google B4: Google SDN Network                             | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-b4.pdf][paper: google-b4.pdf]] ([[https://dl.acm.org/doi/10.1145/2534169.2486019][Original link]])             |
+|  21 | Google dapper: distributed system tracing                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-dapper.pdf][paper: google-dapper.pdf]] ([[https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf][Original link]])         |
+|  22 | Google Pregel: large-scale graph processing               | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-pregel.pdf][paper: google-pregel.pdf]] ([[http://kowshik.github.io/JPregel/pregel_paper.pdf][Original link]])         |
+|  23 | Google Borg: container orchestration                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/google-borg.pdf][paper: google-borg.pdf]] ([[http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43438.pdf][Original link]])           |
+|  24 | Mesos: A platform for fine-grained resource sharing       | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/mesos.pdf][paper: mesos.pdf]] ([[https://people.eecs.berkeley.edu/~alig/papers/mesos.pdf][Original link]])                 |
+|  25 | Transactions in a Distributed Key-Value Store             | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/deepakn.pdf][paper: deepakn.pdf]] ([[https://css.csail.mit.edu/6.824/2014/projects/deepakn.pdf][Original link]])               |
+|  26 | Sun NFS: network filesystem                               | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/sun-nfs.pdf][paper: sun-nfs.pdf]] ([[http://www.cs.ucf.edu/~eurip/papers/sandbergnfs.pdf][Original link]])               |
+|  27 | Memory management: A unified theory of garbage collection | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/ibm-garbagecollection.pdf][paper: ibm-garbagecollection.pdf]] ([[https://researcher.watson.ibm.com/researcher/files/us-bacon/Bacon04Unified.pdf][Original link]]) |
+|  28 | Amazon redis Cache                                        | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/amazon-redis.pdf][paper: amazon-redis.pdf]] ([[https://d0.awsstatic.com/whitepapers/Database/database-caching-strategies-using-redis.pdf][Original link]])          |
+|  29 | Chord: p2p lookup service                                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/chord.pdf][paper: chord.pdf]] ([[https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf][Original link]])                 |
+|  30 | Akamai CDN Network                                        | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/akamai.pdf][paper: akamai.pdf]] ([[https://www.cs.rutgers.edu/~rmartin/teaching/fall15/papers/arch2/cdn.pdf][Original link]])                |
+|  31 | MDCC: Multi-Data Center Consistency                       | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/mddc.pdf][paper: mddc.pdf]] ([[https://amplab.cs.berkeley.edu/wp-content/uploads/2013/03/mdcc-eurosys13.pdf][Original link]])                  |
+|  32 | Warp: Multi-key transactions for key-value stores         | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/warp.pdf][paper: warp.pdf]] ([[https://arxiv.org/pdf/1509.07815.pdf][Original link]])                  |
+#+TBLFM: $1=@-1$1+1;N
+** Papers: Algorithm & Protocols
+| Num | Name                       | Summary                                                             |
+|-----+----------------------------+---------------------------------------------------------------------|
+|   1 | Consistent Hashing         | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/consistent-hashing.pdf][paper: consistent-hashing.pdf]] ([[https://www.akamai.com/us/en/multimedia/documents/technical-publication/consistent-hashing-and-random-trees-distributed-caching-protocols-for-relieving-hot-spots-on-the-world-wide-web-technical-publication.pdf][Original link]])                       |
+|   2 | Paxos                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/paxos-simple-Copy.pdf][paper: paxos-simple-Copy.pdf]] ([[https://lamport.azurewebsites.net/pubs/paxos-simple.pdf][Original link]])                        |
+|   3 | Byzantine Generals Problem | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/Byzantine Generals Problem.pdf][paper: Byzantine Generals Problem.pdf]] ([[http://www.andrew.cmu.edu/course/15-749/READINGS/required/resilience/lamport82.pdf][Original link]])               |
+|   4 | Raft                       | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/raft.pdf][paper: raft.pdf]] ([[https://raft.github.io/raft.pdf][Original link]])                                     |
+|   5 | Gossip                     | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/A gossip-style failure detection service.pdf][paper: A gossip-style failure detection service.pdf]] ([[https://www.cs.cornell.edu/home/rvr/papers/GossipFD.pdf][Original link]]) |
+|   6 | Hyerloglog                 | [[https://github.com/dennyzhang/cheatsheet-paper-A4/blob/master/paper/hyperloglog.pdf][paper: hyerloglog.pdf]] ([[https://stefanheule.com/papers/edbt13-hyperloglog.pdf][Original link]])                               |
+|   7 | CDRTs                      | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/A comprehensive study of CDRTs.pdf][paper: A comprehensive study of CDRTs.pdf]] ([[https://hal.inria.fr/inria-00555588/document][Original link]])           |
+|   8 | CSP                        | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/Communicating Sequential Process.pdf][paper: Communicating Sequential Process.pdf]] ([[http://www.cs.ucf.edu/courses/cop4020/sum2009/CSP-hoare.pdf][Original link]])         |
+|   9 | Cuckoo Hashing             | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/An Overview of Cuckoo Hashing.pdf][paper: An Overview of Cuckoo Hashing.pdf]] ([[https://cs.stanford.edu/~rishig/courses/ref/l13a.pdf][Original link]])            |
+|  10 | Fenwick Tree               | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/Fenwick Tree.pdf][paper: Fenwick Tree.pdf]] ([[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.8917&rep=rep1&type=pdf][Original link]])                             |
+|  11 | Epidemic Broadcast Trees   | [[https://github.com/dennyzhang/cheatsheet-paper-A4/tree/master/paper/Epidemic Broadcast Trees.pdf][paper: Epidemic Broadcast Trees.pdf]] ([[https://www.gsd.inesc-id.pt/~ler/reports/srds07.pdf][Original link]])                 |
+#+TBLFM: $1=@-1$1+1;N
+** More Resources
+| Name      | Summary                                                      |
+|-----------+--------------------------------------------------------------|
+| Reference | [[https://github.com/papers-we-love/papers-we-love][Github: papers-we-love]], [[https://blog.acolyer.org/][Website: the morning paper]]           |
+| Reference | [[https://cheatsheet.dennyzhang.com/cheatsheet-systemdesign-A4][CheatSheet: System Design For Job Interview]]                  |
+| Reference | [[https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-A4][CheatSheet: LeetCode Common Templates & Common Code Problems]] |
+
+License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
+
+#+BEGIN_HTML
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" width="201" height="268" src="https://raw.githubusercontent.com/USDevOps/mywechat-slack-group/master/images/denny_201706.png"></a>
+
+<a href="https://cheatsheet.dennyzhang.com"><img align="right" src="https://raw.githubusercontent.com/dennyzhang/cheatsheet.dennyzhang.com/master/images/cheatsheet_dns.png"></a>
+#+END_HTML
+* org-mode configuration                                           :noexport:
+#+STARTUP: overview customtime noalign logdone showall
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LATEX_HEADER: \usepackage[margin=0.6in]{geometry}
+#+LaTeX_CLASS_OPTIONS: [8pt]
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage{lastpage}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \fancyhf{}
+#+LATEX_HEADER: \rhead{Updated: \today}
+#+LATEX_HEADER: \rfoot{\thepage\ of \pageref{LastPage}}
+#+LATEX_HEADER: \lfoot{\href{https://github.com/dennyzhang/cheatsheet-paper-A4}{GitHub: https://github.com/dennyzhang/cheatsheet-paper-A4}}
+#+LATEX_HEADER: \lhead{\href{https://cheatsheet.dennyzhang.com/cheatsheet-paper-A4}{Blog URL: https://cheatsheet.dennyzhang.com/cheatsheet-paper-A4}}
+#+AUTHOR: Denny Zhang
+#+EMAIL:  denny@dennyzhang.com
+#+TAGS: noexport(n)
+#+PRIORITIES: A D C
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_EXCLUDE_TAGS: exclude noexport
+#+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
+#+LINK_UP:
+#+LINK_HOME:
+* more papers                                                      :noexport:
+|   5 | Bloom filter       |                                                     |
+|   6 | Reservoir Sampling |                                                     |
+|   7 | LSM                |                                                     |
+|   9 | CRDTs              |                                                     |
+|  10 | LSM                |                                                     |
+|  11 | Quadtree           |                                                     |
+* TODO papers                                                      :noexport:
+A Note on Distributed Computing
+http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=5A960A7B16A7BB42A99D7B6EFC30FB25?doi=10.1.1.41.7628&rep=rep1&type=pdf
+
+A simple totally ordered broadcast protocol
+http://diyhpl.us/~bryan/papers2/distributed/distributed-systems/zab.totally-ordered-broadcast-protocol.2008.pdf
